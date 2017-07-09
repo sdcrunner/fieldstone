@@ -1,0 +1,52 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// Start with assigning color names to specific hex values.
+$white:  #fff;
+$black:  #000;
+$red:    #d9534f;
+$orange: #f0ad4e;
+$yellow: #ffd500;
+$green:  #5cb85c;
+$blue:   #0275d8;
+$teal:   #5bc0de;
+$pink:   #ff5b77;
+$purple: #613d7c;
+
+// Create grayscale
+$gray-dark:                 #292b2c;
+$gray:                      #464a4c;
+$gray-light:                #636c72;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             #29A37A;
+$brand-success:             $green;
+$brand-info:                $teal;
+$brand-warning:             $orange;
+$brand-danger:              $red;
+$brand-inverse:             $gray-dark;
+
+$body-bg:       $white;
+$body-color:    $gray-dark;
+$inverse-bg:    $gray-dark;
+$inverse-color: $gray-lighter;
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:       $font-family-serif;
+
+$btn-primary-color:              $white;
+$btn-primary-bg:                 $brand-primary;
+$btn-primary-border:             $btn-primary-bg;
+
+$btn-secondary-color:            $gray-dark;
+$btn-secondary-bg:               $white;
+$btn-secondary-border:           #ccc;
+
+
+
